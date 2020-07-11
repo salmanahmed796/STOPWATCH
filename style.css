@@ -1,0 +1,38 @@
+body{
+    background-image: url(images/stopwatch\ images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.main{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.num{
+    font-size: 100px;
+    color: #ffffff;
+    display: inline-block;
+}
+button{
+    font-size: 50px;
+    padding: 20px;
+}
+.lap{
+    width: 70%;
+    text-align: right;
+    margin-right: -450px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .num{
+        font-size: 75px;
+    }
+    .lap{
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+    }
+}

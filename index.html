@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="main mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <div>
+                        <h1 class="text-white">STOP WATCH</h1>
+                    </div>
+                    <div class="mt-5">
+                        <h1 id="min" class="num">00</h1>
+                        <h1 class="num">:</h1>
+                        <h1 id="sec" class="num">00</h1>
+                        <h1 class="num">:</h1>
+                        <h1 id="msec" class="num">00 </h1>
+                    </div>
+                    <div>
+                        <button id="start" class="mt-5 btn btn-outline-primary btn-lg " onclick="start()">Start</button>
+                        <button id="pause" class="mt-5 btn btn-outline-primary btn-lg" onclick="pause()">Pause</button>
+                        <button id="reset" class="mt-5 btn btn-outline-primary btn-lg" onclick="reset()">Reset</button>
+                        <button class="mx-auto w-50 btn btn-outline-primary btn-lg btn-block mt-4" onclick="lap()">Lap</button>
+                    </div>
+                    <div>
+                        <h2 id="lap-result" class="lap text-light mt-2"> </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
